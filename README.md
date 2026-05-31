@@ -59,7 +59,7 @@ firebaseConnection.js
 ## Clonar repositório
 
 ```bash
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/DevNelson16/React-Firebase-CRUD
 ```
 
 ## Instalar dependências
