@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# 🚀 React + Firebase CRUD
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido com React.js e Firebase, contendo autenticação de usuários e CRUD completo com Firestore Database.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+# 🛠️ Tecnologias
 
-### `npm start`
+* React.js
+* Firebase
+* JavaScript
+* HTML5
+* CSS3
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 🔥 Funcionalidades
 
-### `npm test`
+* ✅ Criar usuário
+* ✅ Fazer login
+* ✅ Logout
+* ✅ Criar posts
+* ✅ Listar posts
+* ✅ Atualizar posts
+* ✅ Excluir posts
+* ✅ Dados em tempo real com Firestore
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+# 📂 Estrutura
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+src/
+├── App.js
+├── app.css
+├── firebaseConnection.js
+└── index.js
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# ⚙️ Configuração Firebase
 
-### `npm run eject`
+Crie um projeto no Firebase e ative:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Authentication
+* Firestore Database
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Depois configure o arquivo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```js
+firebaseConnection.js
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+# ▶️ Executar Projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Clonar repositório
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone URL_DO_REPOSITORIO
+```
 
-### Code Splitting
+## Instalar dependências
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm install
+```
 
-### Analyzing the Bundle Size
+## Rodar projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm start
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# 📦 Instalar Firebase
 
-### Advanced Configuration
+```bash
+npm install firebase
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+# 👨‍💻 Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Nelson Geovetty Jaime
 
-### `npm run build` fails to minify
+💻 Full Stack Developer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+# 📄 Licença
+
+MIT License
